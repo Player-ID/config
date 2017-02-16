@@ -17,3 +17,14 @@ Remove all clutter and focus only on the essential. Similar to iA Writer or Writ
 * [vim-commentary](https://github.com/tpope/vim-commentary): Comment stuff out.  Use `gcc` to comment out a line (takes a count), `gc` to comment out the target of a motion. `gcu` uncomments a set of adjacent commented lines.
 * [syntastic](https://github.com/scrooloose/syntastic): Syntax checking hacks for vim
 * [vim-yankstack](https://github.com/maxbrunsfeld/vim-yankstack): Maintains a history of previous yanks, changes and deletes
+
+### my_config.vim
+```
+autocmd Filetype html setlocal shiftwidth=2 tabstop=2
+autocmd Filetype pug setlocal shiftwidth=2 tabstop=2
+autocmd Filetype jade setlocal shiftwidth=2 tabstop=2
+autocmd Filetype css setlocal shiftwidth=2 tabstop=2
+autocmd Filetype scss setlocal shiftwidth=2 tabstop=2
+autocmd Filetype javascript setlocal shiftwidth=2 tabstop=2
+autocmd Filetype yaml setlocal shiftwidth=2 tabstop=2
+```
