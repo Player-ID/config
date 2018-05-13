@@ -1,6 +1,7 @@
 [user]
     email = dani3l.gao@gmail.com
     name = Daniel Gao
+
 [core]
     # Ignore file permission changes
     filemode = false
@@ -10,14 +11,15 @@
     pager = less -FRSX
 
     editor = 'vim'
+    whitespace = trailing-space,space-before-tab
 
 [color]
+    ui = true
+    pager = true
     branch = auto
     diff = auto
     interactive = auto
-    pager = true
     status = auto
-    ui = true
 
 [color "status"]
     added = green
@@ -34,13 +36,16 @@
 [alias]
     aliases = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\ \t => \\2/' | sort
 
-    co = checkout
-    ci = commit
-    st = status
+    ap = add -p
     br = branch
-    up = remote update -p
+    ci = commit
+    co = checkout
+    cp = cherry-pick
     ff = merge --ff-only
+    st = status
+    up = remote update -p
 
+    ls = !"git lg1"
     lg = !"git lg1"
     lg1 = !"git lg1-specific --all"
     lg2 = !"git lg2-specific --all"
@@ -49,4 +54,11 @@
     lg1-specific = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)'
     lg2-specific = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'
     lg3-specific = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+
+# URL Aliases
+# Usage: git clone gh:Player-ID/config
+[url "https://github.com/"]
+    insteadOf = gh:
+[url "https://gist.github.com/"]
+    insteadOf = gist:
 
