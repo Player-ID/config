@@ -6,6 +6,14 @@ Plug 'junegunn/vim-plug'
 Plug 'tpope/vim-commentary'
 Plug 'itchyny/lightline.vim'
 
+" YouCompleteMe Plugin
+" function! BuildYCM(info)
+"   if a:info.status == 'installed' || a:info.force
+"     !./install.py
+"   endif
+" endfunction
+" Plug 'Valloric/YouCompleteMe'
+
 " Colorschemes
 Plug 'junegunn/seoul256.vim'
 
