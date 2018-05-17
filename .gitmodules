@@ -10,3 +10,9 @@
 [submodule "vim/forks/lightline.vim"]
 	path = vim/forks/lightline.vim
 	url = https://github.com/itchyny/lightline.vim
+[submodule "vim/forks/mru.vim"]
+	path = vim/forks/mru.vim
+	url = https://github.com/yegappan/mru
+[submodule "vim/forks/ctrlp.vim"]
+	path = vim/forks/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim

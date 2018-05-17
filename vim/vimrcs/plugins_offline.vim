@@ -5,6 +5,8 @@ call plug#begin('~/.vim_runtime/plugged')
 Plug '~/.vim_runtime/plugged/vim-plug'
 Plug '~/.vim_runtime/plugged/vim-commentary'
 Plug '~/.vim_runtime/plugged/lightline.vim'
+Plug '~/.vim_runtime/plugged/mru.vim'
+Plug '~/.vim_runtime/plugged/ctrlp.vim'
 
 " Colorschemes
 Plug '~/.vim_runtime/plugged/seoul256.vim'
