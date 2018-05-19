@@ -23,6 +23,10 @@ git submodule update
 * [MRU](https://github.com/yegappan/mru)
 * [ctrlp](https://github.com/ctrlpvim/ctrlp.vim)
 
+### Color Scheme
+* [seoul256](https://github.com/junegunn/seoul256.vim)
+* [solarized](http://ethanschoonover.com/solarized)
+
 ### Mappings
 ---
 `<leader>` is `,`.

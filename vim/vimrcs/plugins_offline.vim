@@ -10,6 +10,7 @@ Plug '~/.vim_runtime/plugged/ctrlp.vim'
 
 " Colorschemes
 Plug '~/.vim_runtime/plugged/seoul256.vim'
+Plug '~/.vim_runtime/plugged/vim-colors-solarized'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()

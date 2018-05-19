@@ -1,9 +1,13 @@
+syntax enable
+set background=dark
+colorscheme solarized
+
 """"""""""""""""""""""""""""""
 " => Lightline
 """"""""""""""""""""""""""""""
 set noshowmode
 let g:lightline = {
-    \ 'colorscheme': 'seoul256',
+    \ 'colorscheme': 'solarized',
     \ 'active': {
     \   'left': [ ['mode', 'paste'],
     \             ['fugitive', 'readonly', 'filename', 'modified'] ],
