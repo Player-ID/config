@@ -9,13 +9,6 @@ Based heavily off of [The Ultimate Vim Configuration](https://github.com/amix/vi
 
 Configure local vim settings by creating `~/.vim_runtime/local_config.vim`.
 
-### Offline Setup
-```
-git submodule init
-git submodule update
-./install_offline.sh
-```
-
 ### Plugins
 * [vim-plug](https://github.com/junegunn/vim-plug)
 * [vim-commentary](https://github.com/tpope/vim-commentary)
