@@ -1,7 +1,13 @@
 syntax enable
 set background=dark
-set termguicolors
-let g:gruvbox_italic=1
+
+" Gruvbox configuration for regular and tmux
+if $TERM == 'screen-256color'
+    let g:gruvbox_italic=0
+else
+    let g:gruvbox_italic=1
+    set termguicolors
+endif
 colorscheme gruvbox
 
 """"""""""""""""""""""""""""""
