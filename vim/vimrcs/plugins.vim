@@ -1,5 +1,5 @@
 " Plugins will be downloaded under the specified directory.
-call plug#begin('~/.vim_runtime/plugged')
+call plug#begin('~/.vim/plugged')
 
 " Plugins
 Plug 'junegunn/vim-plug'

@@ -1,17 +1,17 @@
 " Plugins will be downloaded under the specified directory.
-call plug#begin('~/.vim_runtime/plugged')
+call plug#begin('~/.vim/plugged')
 
 " Plugins
-Plug '~/.vim_runtime/plugged/vim-plug'
-Plug '~/.vim_runtime/plugged/vim-commentary'
-Plug '~/.vim_runtime/plugged/lightline.vim'
-Plug '~/.vim_runtime/plugged/mru.vim'
-Plug '~/.vim_runtime/plugged/ctrlp.vim'
+Plug '~/.vim/plugged/vim-plug'
+Plug '~/.vim/plugged/vim-commentary'
+Plug '~/.vim/plugged/lightline.vim'
+Plug '~/.vim/plugged/mru.vim'
+Plug '~/.vim/plugged/ctrlp.vim'
 
 " Colorschemes
-Plug '~/.vim_runtime/plugged/seoul256.vim'
-Plug '~/.vim_runtime/plugged/vim-colors-solarized'
-Plug '~/.vim_runtime/plugged/gruvbox.git'
+Plug '~/.vim/plugged/seoul256.vim'
+Plug '~/.vim/plugged/vim-colors-solarized'
+Plug '~/.vim/plugged/gruvbox.git'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
