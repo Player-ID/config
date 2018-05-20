@@ -11,6 +11,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 " Colorschemes
 Plug 'junegunn/seoul256.vim'
 Plug 'altercation/vim-colors-solarized'
+Plug 'morhetz/gruvbox'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()

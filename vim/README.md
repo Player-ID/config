@@ -26,6 +26,7 @@ git submodule update
 ### Color Scheme
 * [seoul256](https://github.com/junegunn/seoul256.vim)
 * [solarized](http://ethanschoonover.com/solarized)
+* [gruvbox](https://github.com/morhetz/gruvbox)
 
 ### Mappings
 ---

@@ -19,3 +19,6 @@
 [submodule "vim/forks/vim-colors-solarized"]
 	path = vim/forks/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "vim/forks/gruvbox"]
+	path = vim/forks/gruvbox
+	url = https://github.com/morhetz/gruvbox.git

@@ -1,13 +1,15 @@
 syntax enable
 set background=dark
-colorscheme solarized
+set termguicolors
+let g:gruvbox_italic=1
+colorscheme gruvbox
 
 """"""""""""""""""""""""""""""
 " => Lightline
 """"""""""""""""""""""""""""""
 set noshowmode
 let g:lightline = {
-    \ 'colorscheme': 'solarized',
+    \ 'colorscheme': 'seoul256',
     \ 'active': {
     \   'left': [ ['mode', 'paste'],
     \             ['fugitive', 'readonly', 'filename', 'modified'] ],
