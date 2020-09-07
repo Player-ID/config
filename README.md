@@ -1,11 +1,17 @@
 # Development Environment Configuration
 Reference for personal config files.
 
-### Config Files
-* [gitconfig](./gitconfig.md)
-* [vim](./vim/README.md)
-* [tmux](./tmux/tmux.conf)
+## Shell Tools
+* [fzf](https://github.com/junegunn/fzf)
+* [fd](https://github.com/sharkdp/fd)
+* [ripgrep](https://github.com/BurntSushi/ripgrep)
 
-### Additional Setup
-For `gnome-terminal`, color schemes (e.g. gruvbox) can be installed using [this script](https://github.com/metalelf0/gnome-terminal-colors).
+## Vim Plugins
+
+Plugins are managed by [vim-plug](https://github.com/junegunn/vim-plug). Install with [vim/install.sh](vim/install.sh).
+
+## Colorschemes
+* [gruvbox](https://github.com/morhetz/gruvbox)
+  * [gruvbox-contrib](https://github.com/morhetz/gruvbox-contrib)
+  * [dircolors](https://github.com/perplexa/dotfiles/blob/master/.gruvbox.dircolors)
 

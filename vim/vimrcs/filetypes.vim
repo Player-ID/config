@@ -1,24 +1,7 @@
-""""""""""""""""""""""""""""""
-" => C++ section
-""""""""""""""""""""""""""""""
-autocmd Filetype h setlocal shiftwidth=2 tabstop=2
-autocmd Filetype cpp setlocal shiftwidth=2 tabstop=2
+" C++
+autocmd FileType cpp setlocal expandtab sw=4 ts=4 sts=4
+autocmd FileType cpp let &colorcolumn="80,".join(range(120,999), ",")
 
-""""""""""""""""""""""""""""""
-" => Web section
-""""""""""""""""""""""""""""""
-autocmd Filetype html setlocal shiftwidth=2 tabstop=2
-autocmd Filetype css setlocal shiftwidth=2 tabstop=2
-autocmd Filetype javascript setlocal shiftwidth=2 tabstop=2
-
-""""""""""""""""""""""""""""""
-" => Shell section
-""""""""""""""""""""""""""""""
-if exists('$TMUX') 
-    if has('nvim')
-        set termguicolors
-    else
-        set term=screen-256color 
-    endif
-endif
+" Bash
+au BufNewFile,BufRead .bashrc*,bashrc,bash.bashrc,.bash_profile*,.bash_logout*,*.bash,*.ebuild call SetFileTypeSH("bash")
 
