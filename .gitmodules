@@ -10,3 +10,6 @@
 [submodule "vim/forks/gruvbox"]
 	path = vim/forks/gruvbox
 	url = https://github.com/morhetz/gruvbox.git
+[submodule "gruvbox/gruvbox-contrib"]
+	path = gruvbox/gruvbox-contrib
+	url = https://github.com/morhetz/gruvbox-contrib.git
