@@ -13,7 +13,7 @@ colorscheme gruvbox
 set noshowmode
 set showtabline=0
 let g:airline_theme='bubblegum'
-let g:airline_extensions = ['tmuxline', 'ctrlp']
+let g:airline_extensions = ['tmuxline']
 let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
 
 if !exists('g:airline_symbols')

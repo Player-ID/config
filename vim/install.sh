@@ -13,9 +13,9 @@ cp -r ./vimrcs ~/.vim/
 
 echo 'set runtimepath+=~/.vim
 
+source ~/.vim/vimrcs/plugins.vim
 source ~/.vim/vimrcs/basic.vim
 source ~/.vim/vimrcs/filetypes.vim
-source ~/.vim/vimrcs/plugins.vim
 source ~/.vim/vimrcs/config.vim' > ~/.vimrc
 
 echo "Installed configuration successfully!"
