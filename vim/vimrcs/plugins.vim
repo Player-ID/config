@@ -1,23 +1,23 @@
 " Plugins will be downloaded under the specified directory.
-call plug#begin('$HOME/.vim/plugged')
+call plug#begin('~/.vim/plugged')
 
 " Plugins
-Plug 'ctrlpvim/ctrlp.vim'
+Plug 'Yggdroot/indentLine'
 Plug 'easymotion/vim-easymotion'
 Plug 'edkolev/tmuxline.vim'
 Plug 'majutsushi/tagbar'
 Plug 'ngemily/vim-vp4'
-Plug 'terryma/vim-expand-region'
 Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
-Plug 'Yggdroot/indentLine'
+
+" Plug 'ctrlpvim/ctrlp.vim'
+" Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 
 " Colorschemes
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline-themes'
-
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim'
 
 " On-demand loading
 Plug 'preservim/nerdtree', { 'on':  'NERDTreeToggle' }
