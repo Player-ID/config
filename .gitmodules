@@ -1,15 +1,6 @@
-[submodule "vim/forks/vim-commentary"]
-	path = vim/forks/vim-commentary
-	url = https://github.com/tpope/vim-commentary
-[submodule "vim/forks/ctrlp.vim"]
-	path = vim/forks/ctrlp.vim
-	url = https://github.com/ctrlpvim/ctrlp.vim
-[submodule "vim/forks/vim-colors-solarized"]
-	path = vim/forks/vim-colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized.git
-[submodule "vim/forks/gruvbox"]
-	path = vim/forks/gruvbox
-	url = https://github.com/morhetz/gruvbox.git
 [submodule "gruvbox/gruvbox-contrib"]
 	path = gruvbox/gruvbox-contrib
 	url = https://github.com/morhetz/gruvbox-contrib.git
+[submodule "fzf"]
+	path = fzf
+	url = https://github.com/junegunn/fzf
