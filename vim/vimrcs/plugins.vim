@@ -5,12 +5,15 @@ call plug#begin('~/.vim/plugged')
 Plug 'Yggdroot/indentLine'
 Plug 'easymotion/vim-easymotion'
 Plug 'edkolev/tmuxline.vim'
-Plug 'junegunn/fzf.vim'
 Plug 'majutsushi/tagbar'
 Plug 'ngemily/vim-vp4'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
+
+" FZF
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 " Colorschemes
 Plug 'morhetz/gruvbox'
